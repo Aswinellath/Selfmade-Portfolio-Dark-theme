@@ -1,11 +1,11 @@
 export default function Skills() {
     return (
-        <section className="py-24 px-6 bg-neutral-900">
+        <section id="skills" className="py-28 px-6 bg-neutral-900">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-3xl font-bold mb-10 text-center">Technical Skills</h2>
-                <div className="grid md:grid-cols-2 gap-12 text-gray-400">
+                <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-12 text-center">Technical Skills</h2>
+                <div className="grid gap-12 md:grid-cols-2 text-gray-400">
 
-                    <div className="bg-black/40 p-6 rounded-lg border border-neutral-800">
+                    <div className="bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-neutral-600 transition">
                         <h3 className="text-white font-semibold mb-3">Automation</h3>
                         <ul className="space-y-2">
                             <li>Playwright</li>
@@ -14,7 +14,7 @@ export default function Skills() {
                         </ul>
                     </div>
 
-                    <div className="bg-black/40 p-6 rounded-lg border border-neutral-800">
+                    <div className="bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-neutral-600 transition">
                         <h3 className="text-white font-semibold mb-3">Programming</h3>
                         <ul className="space-y-2">
                             <li>TypeScript</li>
@@ -25,7 +25,7 @@ export default function Skills() {
                         </ul>
                     </div>
 
-                    <div className="bg-black/40 p-6 rounded-lg border border-neutral-800">
+                    <div className="bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-neutral-600 transition">
                         <h3 className="text-white font-semibold mb-3">Testing Expertise</h3>
                         <ul className="space-y-2">
                             <li>Functional Testing</li>
@@ -36,7 +36,7 @@ export default function Skills() {
                         </ul>
                     </div>
 
-                    <div className="bg-black/40 p-6 rounded-lg border border-neutral-800">
+                    <div className="bg-neutral-900 p-6 rounded-xl border border-neutral-800 hover:border-neutral-600 transition">
                         <h3 className="text-white font-semibold mb-3">DevOps & Tools</h3>
                         <ul className="space-y-2">
                             <li>GitHub Actions (CI/CD)</li>

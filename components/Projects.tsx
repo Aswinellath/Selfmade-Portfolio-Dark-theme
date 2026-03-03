@@ -1,11 +1,11 @@
 export default function Projects() {
     return (
-        <section id="projects" className="py-24 px-6">
+        <section id="projects" className="py-28 px-6">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
+                <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-12 text-center">Featured Projects</h2>
                 <div className="space-y-12">
                     {/* Project 1 */}
-                    <div className="bg-neutral-900 p-8 rounded-1g border border-neutral-800">
+                    <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800 hover:border-neutral-600 transition">
                         <h3 className="text-xl font-semibold">
                             Playwright Automation Framework
                         </h3>
@@ -27,7 +27,7 @@ export default function Projects() {
                         </div>
                     </div>
                     {/* Project 2 */}
-                    <div className="bg-neutral-900 p-8 rounded-lg border border-neutral-800">
+                    <div className="bg-neutral-900 p-8 rounded-xl border border-neutral-800 hover:border-neutral-600 transition">
                         <h3 className="text-xl font-semibold">API Testing & Backend Validation Suite</h3>
                         <p className="text-gray-400 mt-4 leading-7">
                             Built structured API test collections using Postman and automated execution through Newman CLI. Validated backend data using SQL queries to ensure data integrity across services.
