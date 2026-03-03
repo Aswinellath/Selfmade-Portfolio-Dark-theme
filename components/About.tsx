@@ -15,7 +15,7 @@ export default function About() {
             alt="ASWIN E"
             width={160}
             height={160}
-            className="brightness-45"
+            className="brightness-50"
           />
         </div>
 

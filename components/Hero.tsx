@@ -3,24 +3,11 @@
 import { useState } from "react";
 
 export default function Hero() {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+
 
   return (
     <section
-      onMouseMove={(e) =>
-        setPosition({ x: e.clientX, y: e.clientY })
-      }
-      className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24 overflow-hidden"
-    >
-      {/* Mouse Glow */}
-      <div
-        className="pointer-events-none absolute w-[500px] h-[500px] bg-white/3 rounded-full blur-3xl transition duration-200"
-        style={{
-          left: position.x - 250,
-          top: position.y - 250,
-        }}
-      />
-
+      className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24 overflow-hidden">
       <div className="relative z-10 max-w-3xl">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
           ASWIN E
