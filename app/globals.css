@@ -28,3 +28,102 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.highlight-box {
+  background: #111;
+  border-left: 4px solid #6366f1;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.wp-block-code {
+  background: #111;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+/* TIP CALLOUT */
+.prose .tip-box {
+  background: #0f172a;
+  border-left: 4px solid #22c55e;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  color: #e5e7eb;
+}
+
+/* WARNING CALLOUT */
+.prose .warning-box {
+  background: #111827;
+  border-left: 4px solid #f59e0b;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  color: #e5e7eb;
+}
+
+/* NOTE CALLOUT */
+.prose .note-box {
+  background: #0f172a;
+  border-left: 4px solid #3b82f6;
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  color: #e5e7eb;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Fix bullet points for dark theme */
+.prose ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.prose li::marker {
+  color: #e5e7eb; /* light gray bullet */
+}
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #1f2937;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #374151;
+}

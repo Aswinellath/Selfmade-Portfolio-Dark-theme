@@ -4,7 +4,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Navbar from "@/components/Navbar";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 import CursorGlow from "@/components/CursorGlow";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <Projects />
       <Navbar />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
       <CursorGlow />
     </main>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,16 +9,17 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-md border-b border-neutral-800 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" className="font-bold text-lg tracking-wide">
+        <Link href="/#" className="font-bold text-lg tracking-wide">
           ASWIN E
-        </a>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 text-sm text-gray-400">
-          <a href="#about" className="hover:text-white transition">About</a>
-          <a href="#skills" className="hover:text-white transition">Skills</a>
-          <a href="#projects" className="hover:text-white transition">Projects</a>
-          <a href="#contact" className="hover:text-white transition">Contact</a>
+          <Link href="/#about" className="hover:text-white transition">About</Link>
+          <Link href="/#skills" className="hover:text-white transition">Skills</Link>
+          <Link href="/#projects" className="hover:text-white transition">Projects</Link>
+          <Link href="/blog" className="hover:text-white transition">Blog</Link>
+          <Link href="/#contact" className="hover:text-white transition">Contact</Link>
         </div>
 
         {/* Mobile Button */}
