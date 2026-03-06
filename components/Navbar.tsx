@@ -38,17 +38,20 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col px-6 py-4 space-y-4 text-base text-gray-300">
-          <Link href="#about" onClick={() => setIsOpen(false)} className="hover:text-white">
+          <Link href="/#about" onClick={() => setIsOpen(false)} className="hover:text-white">
             About
           </Link>
-          <Link href="#skills" onClick={() => setIsOpen(false)} className="hover:text-white">
+          <Link href="/#skills" onClick={() => setIsOpen(false)} className="hover:text-white">
             Skills
           </Link>
-          <Link href="#projects" onClick={() => setIsOpen(false)} className="hover:text-white">
+          <Link href="/#projects" onClick={() => setIsOpen(false)} className="hover:text-white">
             Projects
           </Link>
-          <Link href="#contact" onClick={() => setIsOpen(false)} className="hover:text-white">
+          <Link href="/#contact" onClick={() => setIsOpen(false)} className="hover:text-white">
             Contact
+          </Link>
+          <Link href="/blog" onClick={() => setIsOpen(false)} className="hover:text-white">
+            Blog
           </Link>
         </div>
       </div>
